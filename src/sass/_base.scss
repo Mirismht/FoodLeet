@@ -62,11 +62,10 @@ body {
     'head head'
     'list recipe';
 
-  // @media only screen and (max-width: $bp-large) {
-  //   max-width: 100%;
-  //   margin: 0;
-  //   border-radius: 0;
-  // }
+  @media only screen and (max-width: $bp-smallest) {
+    margin: 0;
+    border-radius: 0;
+  }
 
   @media only screen and (max-width: $bp-large) {
     grid-template-columns: 1fr;
@@ -75,6 +74,5 @@ body {
       'head '
       'list '
       'recipe ';
-    // grid-template-rows: 30rem minmax(100rem, auto);
   }
 }

@@ -93,6 +93,10 @@
     grid-template-columns: 1fr 2rem;
     row-gap: 0.1rem;
     align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+      justify-items: center;
+    }
   }
 
   &__title {

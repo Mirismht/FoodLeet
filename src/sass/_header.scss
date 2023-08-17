@@ -10,13 +10,17 @@
     height: 4.6rem;
     display: block;
     mix-blend-mode: color-burn;
+
+    @media only screen and (max-width: $bp-small) {
+      margin: 0;
+    }
   }
 
   @media only screen and (max-width: $bp-small) {
     flex-direction: column;
-    height: 25vh;
-    margin: 10px;
-    padding: 20px;
+    height: 26vh;
+    margin: 0;
+    padding: 21px;
     justify-content: space-between;
   }
 }
@@ -28,6 +32,10 @@
   align-items: center;
   padding-left: 3rem;
   transition: all 0.3s;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 0;
+  }
 
   &:focus-within {
     transform: translateY(-2px);
@@ -71,6 +79,7 @@
 
   @media only screen and (max-width: $bp-small) {
     align-self: center;
+    margin: 0;
   }
 
   &__list {
@@ -134,6 +143,10 @@
   visibility: hidden;
   opacity: 0;
   transition: all 0.5s 0.2s;
+
+  @media only screen and (max-width: $bp-small) {
+    right: -12.5rem;
+  }
 
   &__list {
     list-style: none;
