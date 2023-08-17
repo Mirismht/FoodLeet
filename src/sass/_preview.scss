@@ -85,6 +85,11 @@
         transition: all 0.3s;
       }
     }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 15rem;
+      height: 15rem;
+    }
   }
 
   &__data {
@@ -118,6 +123,8 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.2rem;
+      white-space: pre-wrap;
+      max-width: 14rem;
     }
   }
 
