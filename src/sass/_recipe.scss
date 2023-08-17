@@ -28,6 +28,10 @@
     //   );
     //   opacity: 0.6;
     // }
+
+    @media only screen and (max-width: $bp-small) {
+      height: 28rem;
+    }
   }
 
   &__img {
@@ -63,6 +67,10 @@
 
     @media only screen and (max-width: $bp-medium) {
       width: 70%;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 2.5rem;
     }
   }
 
@@ -135,7 +143,7 @@
   &__ingredients {
     padding: 5rem 8rem;
     font-size: 1.6rem;
-    line-height: 1.4;
+    line-height: 1.6;
     background-color: $color-grey-light-2;
     display: flex;
     flex-direction: column;
@@ -143,6 +151,7 @@
 
     @media only screen and (max-width: $bp-small) {
       padding: 5rem 1rem;
+      line-height: 1.5;
     }
   }
 
