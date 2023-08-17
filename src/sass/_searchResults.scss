@@ -30,8 +30,8 @@
     text-align: left;
   }
   @media only screen and (max-width: $bp-small) {
-    max-width: 70rem;
-    margin: 0 auto;
+    max-width: 60rem;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
