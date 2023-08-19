@@ -42,7 +42,7 @@ FoodLeet is deployed using Netlify. You can access the live application by visit
 
 ## Contributions
 
-Contributions to FoodLeet are welcomed! If you encounter any issues, have suggestions for improvements, or wish to contribute in any way, feel free to open an issue or submit a pull request in the app's [GitHub repository](https://github.com/your-username/your-repo-name).
+Contributions to FoodLeet are welcomed! If you encounter any issues, have suggestions for improvements, or wish to contribute in any way, feel free to open an issue or submit a pull request in the app's [GitHub repository](https://github.com/Mirismht/FoodLeet).
 
 ## Contact
 
